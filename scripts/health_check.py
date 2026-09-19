@@ -2,8 +2,8 @@ import requests
 import time
 
 # REPLACE THESE WITH YOUR ACTUAL ALB URLS
-PRIMARY_ALB = ""
-SECONDARY_ALB = "" 
+PRIMARY_ALB = "dr-primary-alb-678483851.us-east-1.elb.amazonaws.com"
+SECONDARY_ALB = "dr-secondary-alb-1327538181.us-west-2.elb.amazonaws.com" 
 
 def check_health():
     print(f"🔍 Checking Primary Region: {PRIMARY_ALB}")
